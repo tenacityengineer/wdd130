@@ -4,21 +4,21 @@
 }
 
 body{
-    font-family:arial,sans-serif;
+    font-family:Arial,sans-serif;
     line-height:1.6;   
 }
 
 header, footer {
     background-color:#333333;
-    color:#ffffff;
+    color: #ffffff;
     padding:10px;
-    text-align:center;
+    text-align: center;
     font-size: 1.5rem;
 }
 
 main {
-    width:400px;
-    margin:0 auto;
+    width: 400px;
+    margin: 0 auto;
 }
 
 h1 {
