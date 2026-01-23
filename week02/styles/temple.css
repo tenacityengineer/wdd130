@@ -15,9 +15,9 @@ header, footer {
     text-align: center;
     font-size: 1.5rem;
 }
-
+/*  */
 main {
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
