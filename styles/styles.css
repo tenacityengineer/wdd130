@@ -36,7 +36,9 @@ main img {
      margin: 0 0 1rem 1rem;
     }
 
-p {padding: 10px;}
+p {
+    margin: 1rem;}
+
 
 aside{
     width: 20em;
