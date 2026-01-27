@@ -19,7 +19,8 @@ nav a {
 
 h1 {
     color: steelblue;
-    padding: 5rem;
+    padding: 5rem 5rem 5rem 1rem;
+    
 }
 
 main {
