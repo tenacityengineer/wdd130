@@ -27,7 +27,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 nav, p, section, article {
@@ -75,10 +75,4 @@ nav, p, section, article {
     float: right;
     width: 125px;
     margin-left: 10px;
-}
-
-footer{
-    background-color: var(--secondary-color);
-    padding: 20px;
-    text-align: center;
 }
