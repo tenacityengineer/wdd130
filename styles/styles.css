@@ -65,7 +65,7 @@ footer{
 /*class selector */
 .box{
     margin: 1rem;
-    border: 1px rgba(0,0 0, .1);
+    border: 1px rgba(0 0 0 / 0.1);
     padding: 1rem;
     background-color: #eee;
     color: #000;
