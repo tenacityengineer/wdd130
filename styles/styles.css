@@ -24,7 +24,7 @@ h1 {
 }
 
 main {
-    max-width: 640px;
+    max-width: 840px;
 }
 
 main img {
@@ -42,9 +42,13 @@ p {
 
 
 aside{
-    width: 20em;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/ 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
     text-align: center;
-    position: relative;
 }
 
 aside img {
@@ -52,16 +56,17 @@ aside img {
     height: auto;
 }
 
-aside h2 {
-    position: absolute;
-    top: 65px;
-    left: 150px;
+main img {
+    width: 150px;
+    height: auto;
 }
+
+p {padding:0;}
 
 
 
 footer{
-    margin-top: 1em;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
