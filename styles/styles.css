@@ -29,6 +29,7 @@ main {
 
 
 
+
 aside{
     width: 20rem;
     margin: 1rem;
@@ -47,6 +48,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border:0;
+    padding: 0;
+    box-shadow: none;
 }
 
 p {padding:0;}
