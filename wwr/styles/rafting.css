@@ -20,14 +20,43 @@ body {
 
 }
 
-header, main, footer {
-    width: 840px;
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color:var(--accent1-color);
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    justify-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 960px;
     margin: 0 auto;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
+    margin: 20px 0;
 }
 
 nav, p, section, article {
@@ -75,4 +104,43 @@ nav, p, section, article {
     float: right;
     width: 125px;
     margin-left: 10px;
+}
+
+.gallery {
+    display: flex; /* Requirement 8 */
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery figure {
+    margin: 0;
+    flex: 1;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--accent1-color);
+}
+
+/* --- Footer --- */
+footer {
+    max-width: 960px;
+    margin: 20px auto 0;
+    display: flex; /* Requirement 9 */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: auto;
 }
