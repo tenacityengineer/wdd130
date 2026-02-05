@@ -47,6 +47,11 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
 main {
     max-width: 960px;
     margin: 0 auto;
@@ -54,7 +59,7 @@ main {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
     text-align: center;
     margin: 20px 0;
 }
