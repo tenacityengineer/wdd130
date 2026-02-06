@@ -42,8 +42,8 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
-    padding: 15px;
+    color: #ffffff;
+    padding: 10px 15px;
     font-weight: bold;
 }
 
@@ -59,7 +59,7 @@ main {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     text-align: center;
     margin: 20px 0;
 }
@@ -85,7 +85,7 @@ h1, h2 {
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: rgba(38, 70, 83, 0.7);
+    background-color: rgba(38, 70, 83, 0.8);
     color: white;
     margin: 0;
 
