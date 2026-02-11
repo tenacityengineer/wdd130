@@ -1,0 +1,53 @@
+body {
+    background-color: #2f2f2f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: #dddddd;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    width: 450px;
+    border-radius: 6px;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+.quiz-item {
+    margin-bottom: 1.5rem;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.code {
+    background-color: black;
+    color: white;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+button {
+    background-color: #1e1e8f;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #15156b;
+}
