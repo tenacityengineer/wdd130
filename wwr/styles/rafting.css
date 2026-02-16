@@ -165,9 +165,7 @@ footer {
     height: auto;
 }
 
-/* ============================= */
-/* CONTACT PAGE LAYOUT */
-/* ============================= */
+
 
 .contact-wrapper {
     display: grid;
@@ -209,7 +207,6 @@ fieldset label {
     margin-bottom: 8px;
 }
 
-/* Checkbox alignment */
 .checkbox-label {
     display: flex;
     align-items: center;
@@ -257,9 +254,7 @@ fieldset label {
     border: 3px solid var(--accent1-color);
 }
 
-/* ============================= */
-/* COMPANY INFO SECTION */
-/* ============================= */
+
 
 .company-info {
     text-align: center;
@@ -268,5 +263,78 @@ fieldset label {
     line-height: 1.6;
     font-size: 1.1rem;
 }
+
+/* ============================= */
+/* TRIPS PAGE */
+/* ============================= */
+
+.trips-cta {
+    text-align: center;
+    padding: 30px;
+    background-color: var(--secondary-color);
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: var(--accent1-color);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Trip Grid */
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.trip-card {
+    border: 2px solid var(--accent1-color);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+/* Table Styling */
+.trip-table-section {
+    margin-bottom: 40px;
+}
+
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid var(--accent1-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--accent1-color);
+    color: white;
+}
+
 
 
